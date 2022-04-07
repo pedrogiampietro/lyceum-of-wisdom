@@ -7,7 +7,7 @@ import { GlobalStyles } from './globalStyles';
 import { lightTheme, darkTheme } from './components/themeSwitch';
 
 import { useDarkMode } from './hooks/useDarkMode';
-import Toggle from './components/Toggler';
+import Toggle from './components/toggler';
 
 import './App.css';
 

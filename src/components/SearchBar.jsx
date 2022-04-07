@@ -1,16 +1,16 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { useEffect, useRef } from 'react';
 
 import { IoClose, IoSearch } from 'react-icons/io5';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useClickOutside } from 'react-click-outside-hook';
-import { useEffect } from 'react';
-import { useRef } from 'react';
-import MoonLoader from 'react-spinners/MoonLoader';
-import { useDebounce } from '../hooks/debounceHook';
 
-import { QuestionShow } from './QuestionShow';
+import { useDebounce } from '../hooks/debounceHook';
+import { QuestionShow } from './questionShow';
+
+import MoonLoader from 'react-spinners/MoonLoader';
+import styled from 'styled-components';
+
 import enUS from '../translations/en/common.json';
 import ptBR from '../translations/pt/common.json';
 
