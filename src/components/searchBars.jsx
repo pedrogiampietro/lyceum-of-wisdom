@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useClickOutside } from 'react-click-outside-hook';
 
 import { useDebounce } from '../hooks/debounceHook';
-import { QuestionShow } from './questionShow';
+import { QuestionShow } from './questionShows';
 
 import MoonLoader from 'react-spinners/MoonLoader';
 import styled from 'styled-components';
