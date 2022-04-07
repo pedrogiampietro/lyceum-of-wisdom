@@ -159,7 +159,7 @@ export function SearchBar() {
   }, [isClickedOutside]);
 
   const prepareSearchQuery = query => {
-    const reg = new RegExp(query);
+    const regex = new RegExp(query, 'i');
 
     if (query == '') {
       return [];
@@ -167,13 +167,13 @@ export function SearchBar() {
 
     if (LocalStorage === 'en-US') {
       return enUS.filter(function (term) {
-        if (term.question.match(reg)) {
+        if (term.question.match(regex)) {
           return term;
         }
       });
     } else {
       return ptBR.filter(function (term) {
-        if (term.question.match(reg)) {
+        if (term.question.match(regex)) {
           return term;
         }
       });
