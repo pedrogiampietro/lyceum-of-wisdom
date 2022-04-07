@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-import { SearchBar } from './components/searchBars';
+import { SearchBar } from './components/searchBar';
 
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './globalStyles';
-import { lightTheme, darkTheme } from './components/themeSwitchs';
+import { lightTheme, darkTheme } from './components/themeSwitch';
 
 import { useDarkMode } from './hooks/useDarkMode';
-import Toggle from './components/toggles';
+import Toggle from './components/toggle';
 
 import './App.css';
 

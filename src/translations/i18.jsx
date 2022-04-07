@@ -8,12 +8,8 @@ import common_pt from '../translations/pt/common.json';
 import common_en from '../translations/en/common.json';
 
 const resources = {
-  pt: {
-    translation: common_pt,
-  },
-  en: {
-    translation: common_en,
-  },
+  'pt-BR': common_pt,
+  'en-US': common_en,
 };
 
 i18n
@@ -22,7 +18,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'pt',
+    lng: navigator.language,
     debug: false,
     interpolation: {
       escapeValue: false,

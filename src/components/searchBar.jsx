@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useClickOutside } from 'react-click-outside-hook';
 
 import { useDebounce } from '../hooks/debounceHook';
-import { QuestionShow } from './questionShows';
+import { QuestionShow } from './questionShow';
 
 import MoonLoader from 'react-spinners/MoonLoader';
 import styled from 'styled-components';
@@ -165,7 +165,7 @@ export function SearchBar() {
       return [];
     }
 
-    if (LocalStorage === 'en') {
+    if (LocalStorage === 'en-US') {
       return enUS.filter(function (term) {
         if (term.question.match(reg)) {
           return term;
