@@ -1205,7 +1205,7 @@
   },
   {
     "question": "Quais cidades são conenctadas pela Ponte Dom Luís I?",
-    "answer": ""
+    "answer": "Porto e Vila Nova de Gaia"
   },
   {
     "question": "Considerando sua fundação em 1863, quantas vezes o Comitê International da Cruz Vermelha venceu o Prêmio Nobel da Paz?",
@@ -1822,5 +1822,33 @@
   {
     "question": "Qual é o apelido de Cleopatra VII no jogo?",
     "answer": "Rainha do Egito"
+  },
+  {
+    "question": "Qual é a maior cidade do Reino Unido?",
+    "answer": "Londres"
+  },
+  {
+    "question": "Onde ocorreu a batalha final entre o Rei Arthur e Mordred, de acordo com a lenda arturiana?",
+    "answer": "Camlann"
+  },
+  {
+    "question": "Qual desses comandantes tem a capacidade de converter algumas unidades mortas em unidades gravemente ferias ao atacar uma cidade?",
+    "answer": "Carlos Magno"
+  },
+  {
+    "question": "Quantas vezes você pode receber uma ajuda da aliança se o seu centro de aliança estiver no nível 25?",
+    "answer": "30"
+  },
+  {
+    "question": "O famoso arqueólogo dinamarquês Christian Jurgensen Thomsen propôs o sistema de 'três idades' para categorizar a história antiga. Qual é a primeira etapa?",
+    "answer": "Idade da Pedra"
+  },
+  {
+    "question": "Qual destes eventos NÁO faz parte dos Jogos Olímpicos?",
+    "answer": "Automobilismo"
+  },
+  {
+    "question": "Um 'dia' no planeta Vênus é aproximadamente igual a quantos dias na Terra?",
+    "answer": "243 dias"
   }
 ]

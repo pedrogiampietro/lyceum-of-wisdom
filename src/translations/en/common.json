@@ -1818,5 +1818,33 @@
   {
     "question": "What is Cleopatra VII's nickname in the game?",
     "answer": "Queen of Egypt"
+  },
+  {
+    "question": "What is the biggest city in the UK?",
+    "answer": "London"
+  },
+  {
+    "question": "Where did the final battle between King Arthur and Mordred take place, according to Arthurian legend?",
+    "answer": "Camlann"
+  },
+  {
+    "question": "Which of these commanders has the ability to convert some dead units into seriously injured units when attacking a city?",
+    "answer": "Charles the Great"
+  },
+  {
+    "question": "How many times can you receive alliance help if your alliance center is level 25?",
+    "answer": "30"
+  },
+  {
+    "question": "The famous Danish archaeologist Christian Jurgensen Thomsen proposed the 'three ages' system for categorizing ancient history. What is the first step?",
+    "answer": "Stone Age"
+  },
+  {
+    "question": "Which of these events is NOT part of the Olympic Games?",
+    "answer": "Auto racing"
+  },
+  {
+    "question": "One 'day' on the planet Venus is approximately equal to how many days on Earth?",
+    "answer": "243 days"
   }
 ]
